@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sabz-shop/static/css/main.d01c1c3c.css",
+    "main.js": "/sabz-shop/static/js/main.41c6c98d.js",
+    "static/js/453.ef497fa8.chunk.js": "/sabz-shop/static/js/453.ef497fa8.chunk.js",
+    "index.html": "/sabz-shop/index.html",
+    "main.d01c1c3c.css.map": "/sabz-shop/static/css/main.d01c1c3c.css.map",
+    "main.41c6c98d.js.map": "/sabz-shop/static/js/main.41c6c98d.js.map",
+    "453.ef497fa8.chunk.js.map": "/sabz-shop/static/js/453.ef497fa8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d01c1c3c.css",
+    "static/js/main.41c6c98d.js"
+  ]
+}
