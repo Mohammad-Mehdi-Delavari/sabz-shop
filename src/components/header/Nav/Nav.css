@@ -1,0 +1,25 @@
+.nav__container {
+  height: 10vh;
+  background-color:rgba(237, 249, 231, 1);
+	padding: 70px 100px;
+
+}
+.nav__top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__right-section {
+  display: flex;
+}
+.nav__left-section{
+  display: flex;
+}
+.nav__icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.nav__items-container{
+  display: flex;
+}

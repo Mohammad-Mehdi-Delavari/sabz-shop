@@ -1,0 +1,117 @@
+.topbar__container {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  border-radius: 50px;
+  margin: 70px 70px;
+  height: 74px;
+  width: 90%;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+.topbar__container::before {
+  content: "";
+  z-index: 998;
+  background: url(https://demo.i-wp.ir/woodland/sabzine/wp-content/uploads/Central_Curve_shadow2.svg)
+    no-repeat;
+  width: 364px;
+  height: 325px;
+  display: inline-block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-size: contain;
+  top: -116px;
+  position: absolute;
+}
+.topbar__section {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar__right-section {
+  display: flex;
+  gap: 30px;
+  justify-content: right;
+  position: absolute;
+  right: 16px;
+}
+.topbar__center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+.topbar__center-section::before {
+  content: "";
+  z-index: 999;
+  width: 239px;
+  height: 239px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+}
+.topbar__center-section-link {
+  display: flex;
+  position: absolute;
+  z-index: 1010;
+  right: 590px;
+  color: #4caf50;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.topbar__center-section-link-after {
+  content: " ";
+  z-index: 1002;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #4caf50;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+}
+.topbar__left-section {
+  display: flex;
+  position: absolute;
+  left: 16px;
+  gap: 30px;
+  align-items: center;
+}
+.topbar__menu-section {
+  position: absolute;
+  top: 180px;
+  right: 145px;
+  left: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(66, 141, 66, 1);
+  border-bottom-right-radius: 41px;
+  border-bottom-left-radius: 41px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.topbar__menu-right-section {
+  gap: 10px;
+  display: flex;
+  margin-right: 65px;
+}
+.topbar__menu-left-section {
+  gap: 10px;
+  display: flex;
+  margin-left: 65px;
+}

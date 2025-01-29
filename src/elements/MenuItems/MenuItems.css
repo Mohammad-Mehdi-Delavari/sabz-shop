@@ -1,0 +1,19 @@
+.menu-item__section {
+  list-style: none;
+  margin: 0 5px;
+}
+.menu-item__section:hover .menu-item__link {
+  color: rgba(0, 0, 0, 0.5);
+}
+.menu-item__link {
+  color: #fff;
+  text-decoration: none;
+}
+.d-rtl {
+  direction: rtl;
+  display: flex;
+  font-family: Vazirmatn;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #777;
+}

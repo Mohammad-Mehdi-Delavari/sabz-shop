@@ -1,0 +1,70 @@
+.baner__container {
+  margin: 0 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.baner__img-sectio {
+  display: flex;
+}
+.baner__section-left {
+  display: block;
+  margin-top: 160px;
+  position: relative;
+}
+.baner__text-section-one {
+  display: block;
+  position: absolute;
+  top: -100px;
+}
+.baner__text-one {
+  display: block;
+  margin-top: 7px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+.baner__text-section-two {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2c5b22;
+  line-height: 1.5;
+}
+.baner__text-section-two-after {
+  content: "";
+  display: flex;
+  right: 10px;
+  left: 0;
+  top: 100px;
+  bottom: 0;
+  position: absolute;
+  border-right: 3px solid #2c5b22;
+  height: 130px;
+  width: 10px;
+}
+.baner__text-section-tree {
+  margin-top: 10px;
+}
+.baner__text-tree {
+  display: block;
+  margin-right: 30px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+.baner__btn-section {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.baner__info-btn {
+  border-radius: 50px;
+  background-color:  rgb(66, 141, 66);
+}
+.baner__shop-btn {
+  border-radius: 50px;
+  background-color:  #888;
+
+}
